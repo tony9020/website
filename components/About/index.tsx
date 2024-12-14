@@ -29,13 +29,13 @@ const About = () => {
               className="animate_top relative mx-auto hidden aspect-[400/250]  md:block md:w-1/2"
             >
               <Image
-                src="/images/about/about-dark-01.jpg"
+                src="/images/about/about-dark-01.png"
                 alt="About"
                 className="dark:hidden"
                 fill
               />
               <Image
-                src="/images/about/about-dark-01.jpg"
+                src="/images/about/about-dark-01.png"
                 alt="About"
                 className="hidden dark:block"
                 fill
