@@ -32,7 +32,7 @@ const CTA = () => {
               Your Personalized Networking Assistant
               </h2>
               <p>Maximize your time at the KITA Conference with our dedicated event app. Features include:
-              <p></p>
+              <br></br>
               • Real-time schedule view
   • Curated discussion groups
   • One-on-one meeting 
