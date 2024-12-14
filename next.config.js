@@ -4,6 +4,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
+    domains: ["localhost"],
     remotePatterns: [
       {
         protocol: "https",
@@ -12,6 +13,7 @@ const nextConfig = {
       },
     ],
   },
+  base: process.env.NODE_ENV === 'production' ? '/website' : '/',
 };
 
 module.exports = nextConfig;
